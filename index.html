@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hi-Volt Engineering Solutions | High Voltage Test &amp; Measuring Equipment</title>
+<meta name="description" content="Hi-Volt Engineering Solutions, Bangalore: manufacturer and supplier of high voltage test and measuring equipment, IEC 60060 and IS 2071 compliant.">
+<meta property="og:title" content="Hi-Volt Engineering Solutions">
+<meta property="og:description" content="Custom-built high voltage test and measuring equipment from Bangalore.">
+<meta property="og:type" content="website">
+<style>
+:root{--navy:#0b1f3a;--bg:#fff;--fg:#14202e;--card:#f3f6fa;--line:#d9e1ec;--mut:#546275;--g:#2e9b3f;--r:#d3202b;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light dark}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a1424;--fg:#e8eef6;--card:#12233c;--line:#223654;--mut:#9fb0c5}}
+:root[data-theme="dark"]{--bg:#0a1424;--fg:#e8eef6;--card:#12233c;--line:#223654;--mut:#9fb0c5}
+html{scroll-behavior:smooth;scroll-padding-top:calc(72px + env(safe-area-inset-top,0px))}
+*,*:before,*:after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 "Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif}
+h1,h2,h3{line-height:1.15;margin:0 0 .5em;font-weight:700;letter-spacing:-.01em}
+h2{font-size:clamp(1.6rem,3vw,2.2rem)}
+p{margin:0 0 1em;max-width:70ch}
+a{color:inherit}
+img{max-width:100%;display:block}
+:focus-visible{outline:3px solid var(--g);outline-offset:2px}
+.w{max-width:1120px;margin:auto}
+section{padding:72px 20px}
+section:nth-of-type(even){background:var(--card)}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--navy);color:#fff}
+header .w{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 20px}
+.logo{font-weight:800;font-size:1.25rem;text-decoration:none;white-space:nowrap}
+.logo i{display:inline-block;width:14px;height:14px;background:var(--g);border-radius:50% 0 50% 0;margin-right:6px}
+.logo b{color:var(--r)}
+.logo .lbox{display:block;overflow:hidden;background:#fff;border-radius:6px;padding:4px 8px;min-width:48px;min-height:24px;max-width:70vw;max-height:160px}
+.logo img{display:block;width:100%;height:100%;object-fit:contain}
+body.ed .logo .lbox{resize:both;outline:1px dashed var(--g);outline-offset:2px}
+nav{display:flex;gap:18px;overflow-x:auto;scrollbar-width:none}
+nav a{color:#dbe5f2;text-decoration:none;font-size:.95rem;white-space:nowrap}
+nav a{transition:color .2s}
+nav a:hover,nav a.on:hover{color:#ffb703;text-decoration:underline;text-decoration-color:#ffb703;text-underline-offset:6px}
+.hg{display:grid;gap:40px;align-items:center;grid-template-columns:1.6fr 1fr}
+.addr{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.18);border-left:4px solid var(--g);border-radius:8px;padding:22px 24px;color:#e3ecf7}
+.addr h3{font-size:1.15rem;margin:0 0 .6em}.addr p{margin:0 0 .8em}.addr .an{font-weight:700;color:#fff}.addr a{color:#9be3a8;font-weight:600;overflow-wrap:anywhere}
+@media(max-width:1000px){.hg{grid-template-columns:1fr}.hero .hg h1{font-size:clamp(1.3rem,6.2vw,3rem)}}
+main section{display:none;min-height:60vh}main section.act{display:block}main section.act:not(.hero){background:var(--bg)}
+nav a.on{color:#fff;text-decoration:underline;text-decoration-color:var(--g);text-underline-offset:6px}
+.hero{background:linear-gradient(120deg,#0b1f3a 55%,#143760);color:#fff;padding:32px 20px 72px}
+.hero h1{font-size:clamp(1.3rem,4.4vw,3.2rem);max-width:none;white-space:pre}
+.hero p{font-size:1.15rem;color:#cfdbea}
+.btn{display:inline-block;padding:12px 22px;border-radius:6px;border:2px solid var(--g);background:var(--g);color:#fff;text-decoration:none;font-weight:600;cursor:pointer;font:inherit;font-weight:600}
+.btn.o{background:transparent;color:inherit;border-color:currentColor}
+.hero .btn{margin:6px 10px 0 0}
+.grid{display:grid;gap:20px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+.stats{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));margin-top:28px}
+.stat{border-left:4px solid var(--g);padding:6px 16px;background:var(--bg)}
+.bg{margin-top:48px}
+.stat b{display:block;font-size:1.4rem}.stat span{color:var(--mut)}
+.card{background:var(--bg);border:1px solid var(--line);border-radius:8px;overflow:hidden;position:relative;display:flex;flex-direction:column}
+section:nth-of-type(even) .card{background:var(--bg)}
+.ib{position:relative;width:100%;max-width:100%;aspect-ratio:4/3;overflow:hidden;background:#fff}
+.ib img{display:block;width:100%;height:100%;object-fit:cover}
+body.ed .ib{resize:both;outline:1px dashed var(--g);outline-offset:-1px}
+.cust .ib{aspect-ratio:auto;height:70px;background:#fff}
+.cust .ib img{object-fit:contain;max-height:none}
+.card .b{padding:16px;display:flex;flex-direction:column;gap:6px;flex:1}
+.card h3{font-size:1.1rem;margin:0}
+.spec{font-size:.88rem;color:var(--mut);margin:0}
+.card .btn{margin-top:auto;align-self:flex-start;padding:8px 16px;font-size:.9rem}
+.also{margin-top:28px;color:var(--mut)}
+.fl{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}
+.fl button{padding:6px 14px;border:1px solid var(--line);border-radius:99px;background:var(--bg);color:var(--fg);cursor:pointer;font:inherit}
+.fl button.on{background:var(--navy);color:#fff;border-color:var(--navy)}
+.gi{position:relative;margin:0;border-radius:8px;overflow:hidden;border:1px solid var(--line);background:var(--bg)}
+.gi img{cursor:zoom-in}
+.gi figcaption{padding:10px 14px;font-size:.9rem}
+.cust{display:flex;align-items:center;justify-content:center;min-height:110px;padding:14px;text-align:center;font-weight:700;color:var(--mut);position:relative}
+.cust img{max-height:70px;object-fit:contain}
+.obj{padding-left:22px;list-style:circle}.obj li{margin-bottom:6px}
+.cgrid{display:grid;gap:32px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.info p{margin:0 0 .8em}.info a{color:var(--g);font-weight:600}
+.acts{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0}
+.mapc{border:1px solid var(--line);border-radius:8px;padding:18px;background:var(--card);margin-top:10px}.mapc p{margin:.4em 0 .8em}.mapc .acts{margin:0}
+#cm{display:none;position:fixed;inset:0;z-index:70;background:rgba(5,10,20,.7);align-items:center;justify-content:center;padding:20px}#cm.on{display:flex}
+.info a.btn:not(.o){color:#fff;text-decoration:none}
+form{display:grid;gap:12px}
+textarea{resize:vertical;min-height:120px;overflow:hidden}
+input,textarea{width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--fg);font:inherit}
+footer{background:var(--navy);color:#cfdbea;padding:32px 20px;font-size:.92rem}
+footer .w{display:flex;flex-wrap:wrap;gap:16px;justify-content:center;align-items:center}
+footer a{margin-right:14px;text-decoration:none}
+#lock{background:none;border:0;color:#9db0c8;cursor:pointer;font-size:1.1rem}
+.ctl{display:none;position:absolute;top:6px;right:6px;gap:4px;z-index:3;flex-wrap:wrap;justify-content:flex-end;max-width:92%}
+body.ed .ctl{display:flex}
+.ctl button,.addb{border:0;border-radius:4px;background:var(--navy);color:#fff;padding:4px 8px;cursor:pointer;font:inherit;font-size:.8rem}
+.ctl button:last-child{background:var(--r)}
+.addb{display:none;margin-top:18px;padding:10px 16px;background:var(--g);font-size:.9rem}
+body.ed .addb{display:inline-block}
+[data-p]{white-space:pre-wrap;overflow-wrap:anywhere}
+body.ed [contenteditable]{outline:1px dashed var(--g);outline-offset:2px;cursor:text;display:block;min-height:1.7em;min-width:6ch;padding:2px 6px;resize:both;overflow:auto;max-width:100%}
+#bar{display:none;position:fixed;left:0;right:0;bottom:0;z-index:40;background:#111c2e;color:#fff;padding:10px 14px calc(10px + env(safe-area-inset-bottom,0px));gap:8px;flex-wrap:wrap;align-items:center;justify-content:center;font-size:.9rem}
+body.ed #bar{display:flex}
+#bar button{padding:7px 12px;border-radius:5px;border:0;background:var(--g);color:#fff;cursor:pointer;font:inherit}
+#bar button.x{background:var(--r)}
+#lb{display:none;position:fixed;inset:0;background:rgba(5,10,20,.93);z-index:50;align-items:center;justify-content:center;flex-direction:column;padding:20px;color:#fff}
+#lb.on{display:flex}
+#lb img{max-height:78vh;max-width:100%;object-fit:contain}
+#lb button{position:absolute;background:rgba(255,255,255,.15);color:#fff;border:0;font-size:1.6rem;width:46px;height:46px;border-radius:50%;cursor:pointer}
+#lb .p{left:14px;top:50%}#lb .n{right:14px;top:50%}#lb .c{right:14px;top:calc(14px + env(safe-area-inset-top,0px))}
+#dlg{display:none;position:fixed;inset:0;z-index:70;background:rgba(5,10,20,.7);align-items:center;justify-content:center;padding:20px}#dlg.on{display:flex}.bx{background:var(--bg);color:var(--fg);padding:22px;border-radius:8px;max-width:380px;width:100%;display:grid;gap:12px}.bx p{margin:0}.bx .r{display:flex;gap:8px;justify-content:flex-end}
+#toast{position:fixed;left:50%;bottom:80px;transform:translateX(-50%);background:#111c2e;color:#fff;padding:10px 18px;border-radius:6px;z-index:60;display:none}
+.rv{opacity:0;transform:translateY(14px);transition:opacity .6s,transform .6s}
+.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header><div class="w"><a class="logo" href="#home"><i></i>Hi-<b>VOLT</b></a>
+<nav aria-label="Main"><a href="#home">Home</a><a href="#about">About</a><a href="#products">Products</a><a href="#gallery">Gallery</a><a href="#customers">Customers</a><a href="#quality">Quality</a><a href="#contact">Contact</a></nav></div></header>
+<main id="app"></main>
+<footer><div class="w">
+<div>&copy; 2017&ndash;<span id="yr">2026</span> Hi-Volt Engineering Solutions <button id="lock" aria-label="Owner login" title="Owner login">&#128274;</button></div></div></footer>
+<div id="bar"><span>Edit mode: click any text to edit.</span><button data-b="save">Save</button><button data-b="logo">Change logo</button><button data-b="nologo" class="x">Remove logo</button><button data-b="exp">Export JSON</button><button data-b="imp">Import JSON</button><button data-b="rst" class="x">Reset to default</button><button data-b="out" class="x">Exit</button></div>
+<div id="lb" role="dialog" aria-modal="true" aria-label="Image viewer"><button class="c" aria-label="Close">&times;</button><button class="p" aria-label="Previous">&lsaquo;</button><img alt=""><p id="cap"></p><button class="n" aria-label="Next">&rsaquo;</button></div>
+<div id="toast" role="status"></div>
+<form id="dlg"><div class="bx"><p></p><input autocomplete="off"><div class="r"><button type="button" class="btn o" data-n>Cancel</button><button class="btn">OK</button></div></div></form>
+<div id="cm"><div class="bx"><p><b>Call us</b></p><div id="cl"></div><div class="r"><button type="button" class="btn o" data-cmx>Close</button></div></div></div>
+<input type="file" id="fi" accept="image/jpeg,image/png,image/webp,image/gif" hidden>
+<input type="file" id="ji" accept="application/json,.json" hidden>
+
+<script>
+/* ============ CONFIG ============ */
+const CONFIG={
+  password:"Ganesh@3553",          // CHANGE THIS. Note: it only guards the edit buttons in the browser; it is not real security.
+  storageKey:"hivolt_portfolio_v1",
+  mapDestination:"",               // optional exact pin for directions, e.g. "13.0285,77.5197". Empty = uses the Contact address.
+  formAction:""                    // optional: paste your Formspree URL. Empty = opens the visitor's email app (mailto).
+};
+
+/* ============ CONTENT: edit everything here, or use Edit Mode ============
+   IMPORTANT: Edit Mode saves to THIS browser only. To publish changes for all visitors,
+   click "Export JSON", then paste the file's contents over DEFAULT below and re-upload this page. */
+const DEFAULT={
+ hero:{t:"Hi-VOLT\nENGINEERING SOLUTIONS",s:"Precision Engineering Solutions for Industrial Applications"},
+ about:{
+  p1:"Hi-VOLT ENGINEERING SOLUTIONS is a reputed Manufacturer and Supplier of Electrical Testing & Measuring Equipment such as High Voltage Construction Kit, Impulse Voltage/Current Generator, High Voltage AC Tests Sets, High Voltage DC Test Sets, Partial Discharge Meters, Measuring/Coupling Capacitors, SF6 Filled standard Capacitors, Measuring Spark Gaps, Impulse Multiple Chopping Gaps, Compensating Reactors, Impulse Resistors & Inductors. Our products are designed to be energy efficient and easy to work with. They are known for aesthetic & skilled workmanship for long lasting performance & efficiency with accuracy in line with respective National & International Standards. Range of different variants are available to suit every requirement at reasonable price commensurate to best performing products leading the market.\n\nEstablished in 2017 at Bangalore, India is committed to make available high voltage test and measuring equipment of International Standards at competitive prices to various segment of users in India and global customers. Strictly conforms to relevant International Standard IEC 60060 and Indian Standard IS 2071 for high voltage test & measuring equipment.",
+  bgT:"Background",
+  bg:"The Hi-VOLT ENGINEERING SOLUTIONS, Bangalore, came into existence in October 2017 due to overwhelming demand & repeated requests from customers across the world; because all the employees of the globally renowned company WS Test Systems Private Limited, Bangalore, suddenly received closure notices from the management on June 30th, 2017, after its highly successful existence for over three decades.\n\nWe are supporting the customers of WS Test Systems-Bangalore, MWB (INDIA), MWB Messwandler Bau-Germany, TERCO-Sweden & Passoni Villa-Italy.",
+  stats:[{v:"Est. 2017",l:"Bangalore, India"},{v:"IEC 60060 / IS 2071",l:"Standards compliance"},{v:"India & global",l:"Customers served"}]},
+ products:[
+  {t:"Modular High Voltage Test Systems",s:"Single stage 100kV AC / 140kV DC-Impulse. Two stage 100kV AC / 280kV DC-Impulse. Three stage 100kV AC / 420kV DC-Impulse.",d:"For academic and research use. Quick to dismantle and reassemble. Suited for vacuum interrupters, lightning arresters, insulators, instrument transformers and switchgear.",src:""},
+  {t:"AC Test Transformer",s:"300kV, 300kVA",d:"High voltage AC test transformer for power equipment testing.",src:""},
+  {t:"Impulse Generators",s:"Voltage 1200kV 120kJ. Current 600kV 25kA. Steep front 1000kV/µs.",d:"For lightning arrester and polymeric insulator testing.",src:""},
+  {t:"Partial Discharge Meter & Kit",s:"Reads in picocoulombs (pC).",d:"Non-destructive insulation quality test. Kit: PD meter with filter, measuring impedance with co-axial cable, pulse calibrator.",src:""},
+  {t:"Impulse Resistors & Inductors",s:"1 Ω to 10 MΩ. 1 µH to 1 H.",d:"Wave shaping for impulse generators of any design, in various voltage and energy ratings.",src:""},
+  {t:"Shunts for High Current Measurement",s:"0.1 Ω, up to 100 kA.",d:"For use with impulse current generators of any design.",src:""}],
+ home:{addrT:"Find Us",addrN:"HI-VOLT ENGINEERING SOLUTIONS",addr:"Sy No. 38, No. 15, 7th A Cross, Balaji Nagar, Thigalarapalya Main Road, Peenya Industrial Area, Bengaluru - 560058.",mail:"marketing@hivoltengineeringsolutions.com"},
+ also:"Also available: HV construction kits, HV AC/DC test sets, measuring and coupling capacitors, SF6 filled standard capacitors, measuring spark gaps, impulse multiple chopping gaps, compensating reactors, and an oil dielectric impulse breakdown tester (ASTM D3300).",
+ gallery:[
+  {src:"",t:"Modular test system",c:"Modular Systems"},{src:"",t:"300kV AC test transformer",c:"Transformers"},
+  {src:"",t:"Impulse voltage generator",c:"Impulse"},{src:"",t:"Partial discharge kit",c:"Partial Discharge"},
+  {src:"",t:"Three stage assembly",c:"Modular Systems"},{src:"",t:"Impulse current generator",c:"Impulse"}],
+ customers:[{n:"Hitachi",src:""},{n:"Raj Petro",src:""},{n:"Savita",src:""},{n:"Columbia Petro Chem",src:""},{n:"Gandhar Oil Refinery",src:""},{n:"BVG Labs",src:""},{n:"Incresol",src:""},{n:"Legion Energy",src:""},{n:"Vijay Electric Co",src:""},{n:"APAR",src:""}],
+ quality:{intro:"Hi-Volt Engineering Solutions team firmly believes that ensuring quality of the highest order is a vital pre-requisite for continued success & long last relationship.",recT:"The Company recognizes that :",rec:["Responsibility for product or service quality tests with every individual or company associated with the organization involved in designs / production / assembly of the products or performing sales / procurement / service functions.","Improvement in quality of Products or service ensures economic benefit to the organization."],polT:"Quality Policy Objectives",pol:"The policy of Hi-Volt Engineering Solutions is to deliver top quality products to every customer & grow to become “Leaders in High Voltage Test and Measuring equipment Field” by systematic & sincere R&D activity for development of new custom-built products and continuous improvements in existing products.",pol2:"In pursuance of the above policy, the organization dedicates all it's efforts to meet the following objectives:",
+  obj:["Strictly follow Quality management system.","To maintain customer relationship through regular customer interaction.","To regularly monitor performance of the products through collection of regular customer feedback.","To provide necessary training to the employees for overall development."]},
+ contact:{addr:"No.66, Byaraveshwara Industrial Estate, 4th Main, 3rd Cross, Vinayaka Layout, Andrahalli Main Road, Near Chetan Circle, Peenya 2nd Stage, Bangalore 560091, Karnataka, India",ph1:"+91 99860 24480",ph2:"+91 98800 89509",email:"marketing@hivoltengineeringsolutions.com"}
+};
+
+/* ============ ENGINE ============ */
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const clone=o=>JSON.parse(JSON.stringify(o));
+let S,ed=false,filt="All",tgt=null,lbL=[],lbI=0,tm;
+function load(r){try{if(r){const d=JSON.parse(r);if(d.about&&d.about.bg===undefined){d.about.bgT=DEFAULT.about.bgT;d.about.bg=DEFAULT.about.bg}if(!d.quality||d.quality.intro===undefined)d.quality=clone(DEFAULT.quality);if(!d.home)d.home=clone(DEFAULT.home);if(d.hero&&d.hero.t&&/^Hi-VOLT\s+ENGINEERING SOLUTIONS$/i.test(d.hero.t.trim()))d.hero.t="Hi-VOLT\nENGINEERING SOLUTIONS";return d}}catch(e){}return clone(DEFAULT)}
+function idb(m,v){return new Promise((res,rej)=>{const r=indexedDB.open("hivolt_portfolio",1);r.onupgradeneeded=()=>r.result.createObjectStore("k");r.onerror=()=>rej(r.error);r.onsuccess=()=>{const db=r.result,tx=db.transaction("k",m==="get"?"readonly":"readwrite"),st=tx.objectStore("k"),q=m==="get"?st.get("S"):st.put(v,"S");tx.oncomplete=()=>{db.close();res(q.result)};tx.onerror=()=>rej(tx.error)}})}
+/* Saves to IndexedDB (large capacity) and localStorage. Pass true for a manual save with a confirmation message. */
+async function save(manual){const j=JSON.stringify(S);let ok=false;try{await idb("put",j);ok=true}catch(e){}try{localStorage.setItem(CONFIG.storageKey,j);ok=true}catch(e){}if(!ok)toast("Could not save in this browser. Use Export JSON to keep your work.");else if(manual===true)toast("Saved. Your changes stay until you change them again.")}
+function toast(m){const t=$("#toast");t.textContent=m;t.style.display="block";clearTimeout(tm);tm=setTimeout(()=>t.style.display="none",3200)}
+const get=p=>p.split(".").reduce((o,k)=>o&&o[k],S);
+const set=(p,v)=>{const a=p.split("."),l=a.pop();a.reduce((o,k)=>o[k],S)[l]=v};
+const E=(p,t="span",c="")=>`<${t} class="${c}" data-p="${p}"${ed?' contenteditable="true" spellcheck="false"':""}>${esc(get(p))}</${t}>`;
+const ph=t=>"data:image/svg+xml,"+encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect width="400" height="300" fill="#d9e1ec"/><text x="200" y="155" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#546275">${esc(t||"Add image")}</text></svg>`);
+const IM=(src,alt,x="")=>`<img loading="lazy" ${x} src="${src||ph(alt)}" alt="${esc(alt)}">`;
+const IB=(l,i,src,alt,x="")=>{const it=S[l][i],st=it.w&&it.h?` style="width:${it.w}px;height:${it.h}px"`:"";return `<div class="ib" data-l="${l}" data-i="${i}"${st}>${IM(src,alt,x+` style="object-fit:${it.fit||(l==="customers"?"contain":"cover")}"`)}</div>`};
+const ctl=(l,i,img=true)=>`<div class="ctl"><button data-act="up" data-l="${l}" data-i="${i}" aria-label="Move earlier">&uarr;</button><button data-act="down" data-l="${l}" data-i="${i}" aria-label="Move later">&darr;</button>${img?`<button data-act="img" data-l="${l}" data-i="${i}">Image</button><button data-act="fit" data-l="${l}" data-i="${i}" title="Switch how the picture fits the frame">Fit</button><button data-act="match" data-l="${l}" data-i="${i}" title="Make the frame match the picture's shape">Match</button>`:""}${l==="gallery"?`<button data-act="cat" data-l="${l}" data-i="${i}">Category</button>`:""}<button data-act="del" data-l="${l}" data-i="${i}" aria-label="Delete">&times;</button></div>`;
+const add=(l,txt)=>`<button class="addb" data-act="add" data-l="${l}">${txt}</button>`;
+const openLink=u=>{const a=document.createElement("a");a.href=u;a.target="_blank";a.rel="noopener";document.body.appendChild(a);a.click();a.remove()};
+const GM=t=>"https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to="+encodeURIComponent(t);
+const tel=p=>ed?E(p):`<a href="tel:${esc(get(p).replace(/[^\d+]/g,""))}" data-call>${esc(get(p))}</a>`;
+const BLANK={products:()=>({t:"New product",s:"Specification",d:"Short description",src:""}),customers:()=>({n:"New customer",src:""}),"quality.obj":null};
+
+function render(){
+ document.body.classList.toggle("ed",ed);
+ $(".logo").innerHTML=S.logo?`<span class="lbox" style="width:${S.lw||150}px;height:${S.lh||48}px"><img src="${S.logo}" alt="Hi-Volt Engineering Solutions"></span>`:'<i></i>Hi-<b>VOLT</b>';
+ const cats=["All",...new Set(S.gallery.map(g=>g.c))];
+ if(!cats.includes(filt))filt="All";
+ const wa="https://wa.me/"+S.contact.ph1.replace(/\D/g,"");
+ $("#app").innerHTML=`
+<section class="hero" id="home"><div class="w hg"><div>${E("hero.t","h1")}${E("hero.s","p")}<a class="btn" href="#products">View Products</a><a class="btn o" href="#contact">Request a Quote</a></div><aside class="addr">${E("home.addrT","h3")}${E("home.addrN","p","an")}${E("home.addr","p")}<p>${ed?E("home.mail"):`<a href="${GM(S.home.mail)}" target="_blank" rel="noopener">${esc(S.home.mail)}</a>`}</p></aside></div></section>
+<section id="about"><div class="w rv"><h2>About</h2>${E("about.p1","p")}
+<div class="stats">${S.about.stats.map((s,i)=>`<div class="stat">${E(`about.stats.${i}.v`,"b")}${E(`about.stats.${i}.l`)}</div>`).join("")}</div><div class="bg">${E("about.bgT","h2")}${E("about.bg","p")}</div></div></section>
+<section id="products"><div class="w rv"><h2>Products</h2><div class="grid">${S.products.map((p,i)=>`<article class="card">${ctl("products",i)}${IB("products",i,p.src,p.t)}<div class="b">${E(`products.${i}.t`,"h3")}${E(`products.${i}.s`,"p","spec")}${E(`products.${i}.d`,"p")}<a class="btn" href="#contact" data-enq="${esc(p.t)}">Enquire</a></div></article>`).join("")}</div>${add("products","+ Add product")}${E("also","p","also")}</div></section>
+<section id="gallery"><div class="w rv"><h2>Gallery</h2><div class="fl">${cats.map(c=>`<button data-f="${esc(c)}" class="${c===filt?"on":""}">${esc(c)}</button>`).join("")}</div>
+<div class="grid">${S.gallery.map((g,i)=>g.c===filt||filt==="All"?`<figure class="gi">${ctl("gallery",i)}${IB("gallery",i,g.src,g.t,`data-lb="${i}"`)}<figcaption>${E(`gallery.${i}.t`)}</figcaption></figure>`:"").join("")}</div>${add("gallery","+ Upload gallery images")}</div></section>
+<section id="customers"><div class="w rv"><h2>Customers</h2><div class="grid">${S.customers.map((c,i)=>`<div class="card cust">${ctl("customers",i)}${c.src?IB("customers",i,c.src,c.n):E(`customers.${i}.n`)}</div>`).join("")}</div>${add("customers","+ Add customer")}</div></section>
+<section id="quality"><div class="w rv"><h2>Quality</h2>${E("quality.intro","p")}${E("quality.recT","h3")}<ul class="obj">${S.quality.rec.map((o,i)=>`<li>${E(`quality.rec.${i}`)}</li>`).join("")}</ul><div class="bg">${E("quality.polT","h2")}${(x=>ed?x:x.replace(/“[^”]*”/,"<strong>$&</strong>"))(E("quality.pol","p"))}${E("quality.pol2","p")}<ul class="obj">${S.quality.obj.map((o,i)=>`<li>${E(`quality.obj.${i}`)}</li>`).join("")}</ul></div></div></section>
+<section id="contact"><div class="w rv"><h2>Contact</h2><div class="cgrid"><div class="info"><p>${E("contact.addr")}</p><p>${tel("contact.ph1")}<br>${tel("contact.ph2")}</p><p>${ed?E("contact.email"):`<a href="${GM(S.contact.email)}" target="_blank" rel="noopener">${esc(S.contact.email)}</a>`}</p>
+<div class="acts"><button type="button" class="btn" data-call>Call</button><a class="btn o" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=${encodeURIComponent(S.contact.email)}" target="_blank" rel="noopener">Email</a><a class="btn o" href="${wa}" target="_blank" rel="noopener">WhatsApp</a><button type="button" class="btn o" data-copy="email">Copy email</button></div>
+<div class="mapc"><b>Find us on the map</b><p>${esc(S.contact.addr)}</p><div class="acts"><a class="btn" href="https://www.google.com/maps/dir/?api=1&amp;travelmode=driving&amp;destination=${encodeURIComponent(CONFIG.mapDestination||"Hi-Volt Engineering Solutions, "+S.contact.addr)}" target="_blank" rel="noopener">Open in Google Maps</a><button type="button" class="btn o" data-copy="addr">Copy address</button></div></div>
+</div>
+<form id="ef" ${CONFIG.formAction?`action="${esc(CONFIG.formAction)}" method="post"`:""}><label>Name<input name="name" required></label><label>Email<input name="email" type="email" required></label><label>Subject<input name="subject" id="sub"></label><label>Message<textarea name="message" rows="5" required></textarea></label><button class="btn" type="submit">Send enquiry by email</button><button class="btn o" type="button" data-wa>Send on WhatsApp</button></form></div></div></section>`;
+ $$(".rv").forEach(el=>io.observe(el));show();
+}
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}}),{threshold:.08});
+
+/* ---- images: validate, resize to 1600px, compress ---- */
+function proc(file){return new Promise((ok,no)=>{
+ if(!/^image\/(jpeg|png|webp|gif)$/.test(file.type))return no("Use JPG, PNG, WebP or GIF.");
+ if(file.size>12e6)return no("Image is over 12 MB.");
+ const r=new FileReader();r.onerror=()=>no("Could not read file.");
+ r.onload=()=>{const im=new Image();im.onerror=()=>no("Not a valid image.");
+  im.onload=()=>{const k=Math.min(1,1600/Math.max(im.width,im.height)),c=document.createElement("canvas");c.width=Math.round(im.width*k);c.height=Math.round(im.height*k);c.getContext("2d").drawImage(im,0,0,c.width,c.height);
+   let u=c.toDataURL("image/webp",.82);if(!u.startsWith("data:image/webp"))u=c.toDataURL("image/jpeg",.85);ok(u)};im.src=r.result};
+ r.readAsDataURL(file)})}
+$("#fi").addEventListener("change",async e=>{
+ const fs=[...e.target.files];e.target.value="";if(!fs.length||!tgt)return;
+ for(const f of fs){try{const u=await proc(f);
+  if(tgt.l==="logo")S.logo=u;else if(tgt.i<0)S.gallery.push({src:u,t:f.name.replace(/\.[^.]+$/,""),c:filt==="All"?"General":filt});else S[tgt.l][tgt.i].src=u}catch(m){toast(m)}}
+ save();render()});
+
+/* ---- delegated clicks ---- */
+document.addEventListener("click",async e=>{
+ const q=e.target.closest("[data-act]");
+ if(q){const{act,l,i}=q.dataset,n=+i,a=S[l];
+  if(act==="up"||act==="down"){const j=n+(act==="up"?-1:1);if(j<0||j>=a.length)return;[a[n],a[j]]=[a[j],a[n]]}
+  else if(act==="del"){if(!(await ask("Delete this item? This cannot be undone.")))return;a.splice(n,1)}
+  else if(act==="img"){tgt={l,i:n};$("#fi").multiple=false;$("#fi").click();return}
+  else if(act==="fit"){const o=["cover","contain","fill"],c=a[n].fit||(l==="customers"?"contain":"cover");a[n].fit=o[(o.indexOf(c)+1)%3];toast({cover:"Fill frame (crops the edges)",contain:"Show the whole picture",fill:"Stretch to the frame"}[a[n].fit])}
+  else if(act==="match"){const fr=document.querySelector(`.ib[data-l="${l}"][data-i="${n}"]`),im=fr&&fr.querySelector("img");if(!a[n].src||!im||!im.naturalWidth){toast("Upload an image first.");return}const w=fr.offsetWidth;a[n].w=w;a[n].h=Math.max(24,Math.round(w*im.naturalHeight/im.naturalWidth));a[n].fit="contain";toast("Frame now matches the picture's shape")}
+  else if(act==="cat"){const v=await ask("Category name:",a[n].c,true);if(v===null)return;a[n].c=v.trim()||"General"}
+  else if(act==="add"){if(l==="gallery"){tgt={l,i:-1};$("#fi").multiple=true;$("#fi").click();return}a.push(BLANK[l]())}
+  save();render();return}
+ const f=e.target.closest("[data-f]");if(f){filt=f.dataset.f;render();return}
+ const en=e.target.closest("[data-enq]");if(en){setTimeout(()=>{$("#sub").value="Enquiry: "+en.dataset.enq},0);return}
+ const lb=e.target.closest("[data-lb]");if(lb&&!ed){lbL=S.gallery.filter(g=>filt==="All"||g.c===filt);lbI=lbL.indexOf(S.gallery[+lb.dataset.lb]);open()}
+});
+document.addEventListener("input",e=>{if(e.target.tagName==="TEXTAREA"){e.target.style.height="auto";e.target.style.height=e.target.scrollHeight+"px"}const p=e.target.dataset&&e.target.dataset.p;if(p&&ed){set(p,e.target.innerText.trim());clearTimeout(save.t);save.t=setTimeout(save,400)}});
+document.addEventListener("submit",e=>{if(e.target.id!=="ef"||CONFIG.formAction)return;e.preventDefault();const d=new FormData(e.target);
+ const subj=d.get("subject")||"Website enquiry",body=d.get("message")+"\n\nFrom: "+d.get("name")+" ("+d.get("email")+")";const g=`https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(S.contact.email)}&su=${encodeURIComponent(subj)}&body=${encodeURIComponent(body)}`;openLink(g);toast("Your email draft opened in a new tab. Press Send there to finish.")});
+
+/* ---- lightbox ---- */
+function open(){const g=lbL[lbI];if(!g)return;const im=$("#lb img");im.src=g.src||ph(g.t);im.alt=g.t;$("#cap").textContent=g.t;$("#lb").classList.add("on")}
+const step=d=>{lbI=(lbI+d+lbL.length)%lbL.length;open()},close=()=>$("#lb").classList.remove("on");
+$("#lb .p").onclick=()=>step(-1);$("#lb .n").onclick=()=>step(1);$("#lb .c").onclick=close;
+$("#lb").addEventListener("click",e=>{if(e.target.id==="lb")close()});
+document.addEventListener("keydown",e=>{if(!$("#lb").classList.contains("on"))return;if(e.key==="Escape")close();if(e.key==="ArrowLeft")step(-1);if(e.key==="ArrowRight")step(1)});
+let sx=0;$("#lb").addEventListener("touchstart",e=>sx=e.touches[0].clientX,{passive:true});
+$("#lb").addEventListener("touchend",e=>{const d=e.changedTouches[0].clientX-sx;if(Math.abs(d)>50)step(d>0?-1:1)});
+document.addEventListener("error",e=>{const t=e.target;if(t.tagName==="IMG"&&!t.dataset.f){t.dataset.f=1;t.src=ph(t.alt)}},true);
+
+/* ---- in-page dialogs (browser prompt/confirm are blocked on published pages) ---- */
+function ask(msg,def,inp,pw){return new Promise(res=>{const d=$("#dlg"),i=d.querySelector("input");d.querySelector("p").textContent=msg;i.style.display=inp?"block":"none";i.type=pw?"password":"text";i.value=def||"";d.classList.add("on");if(inp)i.focus();
+ const done=v=>{d.classList.remove("on");d.onsubmit=null;d.querySelector("[data-n]").onclick=null;res(v)};
+ d.onsubmit=e=>{e.preventDefault();done(inp?i.value:true)};d.querySelector("[data-n]").onclick=()=>done(inp?null:false)})}
+/* ---- edit mode ---- */
+$("#lock").onclick=async()=>{if(ed)return;const p=await ask("Owner password:","",true,true);if(p===null)return;if(p===CONFIG.password){ed=true;render();toast("Edit mode on")}else toast("Wrong password")};
+$("#bar").addEventListener("click",async e=>{const b=e.target.dataset.b;if(!b)return;
+ if(b==="save")save(true);
+ if(b==="out"){ed=false;save();render()}
+ if(b==="logo"){tgt={l:"logo",i:null};$("#fi").multiple=false;$("#fi").click()}
+ if(b==="nologo"){S.logo="";save();render()}
+ if(b==="rst"&&await ask("Reset everything to the default content? Your edits will be lost.")){S=clone(DEFAULT);save();render()}
+ if(b==="exp"){const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([JSON.stringify(S,null,2)],{type:"application/json"}));a.download="hivolt-portfolio.json";a.click();toast("Exported. Keep this file safe.")}
+ if(b==="imp")$("#ji").click()});
+$("#ji").addEventListener("change",e=>{const f=e.target.files[0];e.target.value="";if(!f)return;const r=new FileReader();
+ r.onload=()=>{try{const d=JSON.parse(r.result);if(!d.products||!d.gallery||!d.contact)throw 0;S=d;save();render();toast("Imported")}catch(x){toast("Invalid portfolio JSON file.")}};r.readAsText(f)});
+
+$("#yr").textContent=new Date().getFullYear();
+/* ---- enquiry via WhatsApp ---- */
+document.addEventListener("click",e=>{if(!e.target.closest("[data-wa]"))return;const f=$("#ef");if(!f.reportValidity())return;const d=new FormData(f);openLink("https://wa.me/"+S.contact.ph1.replace(/\D/g,"")+"?text="+encodeURIComponent("Hello Hi-Volt Engineering Solutions,\n\nSubject: "+(d.get("subject")||"Enquiry")+"\n"+d.get("message")+"\n\nName: "+d.get("name")+"\nEmail: "+d.get("email")))});
+/* ---- call dialog: tel: links are blocked inside published pages, so offer Call + Copy ---- */
+document.addEventListener("click",e=>{const c=e.target.closest("[data-call]");if(c){e.preventDefault();$("#cl").innerHTML=["ph1","ph2"].map(k=>`<div class="r" style="justify-content:space-between;align-items:center"><b>${esc(S.contact[k])}</b><span style="display:flex;gap:8px"><a class="btn" href="tel:${esc(S.contact[k].replace(/[^\d+]/g,""))}" target="_blank" rel="noopener">Call</a><button type="button" class="btn o" data-copy="${k}">Copy</button></span></div>`).join("");$("#cm").classList.add("on");return}if(e.target.closest("[data-cmx]")||e.target.id==="cm")$("#cm").classList.remove("on")});
+/* ---- copy buttons (email / address) ---- */
+document.addEventListener("click",async e=>{const c=e.target.closest("[data-copy]");if(!c)return;const t=S.contact[c.dataset.copy];let ok=false;try{await navigator.clipboard.writeText(t);ok=true}catch(x){try{const a=document.createElement("textarea");a.value=t;document.body.appendChild(a);a.select();ok=document.execCommand("copy");a.remove()}catch(y){}}toast(ok?"Copied: "+t:"Copy was blocked. Please select the text and copy it.")});
+/* ---- page navigation: one section visible at a time ---- */
+const PAGES=["home","about","products","gallery","customers","quality","contact"];
+let pg=PAGES.includes(location.hash.slice(1))?location.hash.slice(1):"home";
+function show(){$$("#app > section").forEach(s=>s.classList.toggle("act",s.id===pg));$$("nav a").forEach(a=>a.classList.toggle("on",a.getAttribute("href")==="#"+pg))}
+document.addEventListener("click",e=>{const a=e.target.closest('a[href^="#"]');if(!a)return;const id=a.getAttribute("href").slice(1);if(!PAGES.includes(id))return;e.preventDefault();pg=id;try{location.hash=id}catch(x){}show();scrollTo(0,0)});
+window.addEventListener("hashchange",()=>{const h=location.hash.slice(1);pg=PAGES.includes(h)?h:"home";show();scrollTo(0,0)});
+document.addEventListener("pointerup",()=>{if(!ed)return;const b=$(".lbox");if(b&&(b.offsetWidth!==S.lw||b.offsetHeight!==S.lh)){S.lw=b.offsetWidth;S.lh=b.offsetHeight;save()}});
+document.addEventListener("pointerup",()=>{if(!ed)return;$$(".ib").forEach(b=>{const a=S[b.dataset.l],it=a&&a[+b.dataset.i];if(!it||!b.style.width||!b.offsetWidth)return;const w=b.offsetWidth,h=b.offsetHeight;if(w!==it.w||h!==it.h){it.w=w;it.h=h;save()}})});
+(async()=>{let r=null;try{r=await idb("get")}catch(e){}if(!r)try{r=localStorage.getItem(CONFIG.storageKey)}catch(e){}S=load(r);render()})();
+</script>
+</body>
+</html>
